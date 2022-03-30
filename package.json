@@ -1,0 +1,19 @@
+{
+  "name": "stf2-minigame",
+  "version": "1.0.0",
+  "scripts": {
+    "prod:mode": "node ./node_modules/webpack-cli/bin/cli.js --mode production",
+    "watch:mode": "node ./node_modules/webpack-cli/bin/cli.js -w --mode development",
+    "server:mode": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

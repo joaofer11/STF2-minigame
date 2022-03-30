@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #444;
+}
+
+#my-canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+/* CONTROLS */
+.controls {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-240%);
+  margin-top: 40px;
+  align-self: flex-start;
+}
+
+.button {
+  background: none;
+  border: none;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.button > img {
+  width: 100%;
+}
+
+.ArrowUp {
+  transform: translateY(-40px);
+}
+
+.ArrowLeft {
+  transform: translateX(-40px);
+}
+.ArrowRight {
+  transform: translateX(40px);
+}
+
+.ArrowDown {
+  transform: translateY(40px);
+}

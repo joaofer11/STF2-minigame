@@ -13,6 +13,15 @@ const standardStates = new StandardStates();
 stageBackground.init();
 standardStates.init();
 
+
+
+//DISABLE CONTEXT MENU
+window.oncontextmenu = (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+  return false;
+}
+
 //ANIMATION LOOP
 const animationLoop = () => {
   stageBackground.animate(ctx, standardStates.cX);
